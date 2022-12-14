@@ -243,7 +243,7 @@ public class Business {
                 print("Product bought successfully " + CORRECT_EMOJI, title, 1);
                 buy();
             } else {
-                print("You don't have enough balance " + emoji(0x1F61E) + "Your current balance is " + balance + "$", title, 0);
+                print("You don't have enough balance " + emoji(0x1F61E) + " Your current balance is " + balance + "$", title, 0);
                 noEnoughBalance();
             }
         } else if (input == 0) {

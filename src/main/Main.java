@@ -70,9 +70,4 @@ public class Main {
             }
         }
     }
-
-    private static void startOverAgain() {
-        print("Start over again...", "Error", 2);
-        run();
-    }
 }

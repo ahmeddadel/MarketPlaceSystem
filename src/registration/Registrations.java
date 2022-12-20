@@ -95,6 +95,7 @@ public class Registrations {
             // update the user password in the database
             UserEntry.updateUser(Main.statement, user);
             print("Password updated successfully " + CORRECT_EMOJI, title, 1);
+            Main.homeMenu();
         } else {
             print("User does not exist " + WRONG_EMOJI, title, 0);
             Main.homeMenu();

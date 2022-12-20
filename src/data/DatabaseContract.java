@@ -472,7 +472,7 @@ public class DatabaseContract {
             try {
                 ResultSet resultSet = stmt.executeQuery(getProductByName);
                 if (!resultSet.next())
-                    print("No product with name " + name + " " + WRONG_EMOJI, TABLE_NAME, 0);
+                    System.out.println("No product with name " + name + " " + WRONG_EMOJI);
                 else
                     do {
                         // create a product object

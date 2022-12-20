@@ -73,7 +73,7 @@ public class Registrations {
         if (validateUserRegistration(user)) {
             // insert the user into the database
             UserEntry.insertUser(Main.statement, user);
-            print("Welcome " + user.getName() + " " + emoji(0x1F60A), title, 1);
+            print("Signed Up Successfully " + emoji(0x1F60A), title, 1);
             signIn();
         } else {
             Main.homeMenu();
